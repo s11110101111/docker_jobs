@@ -3,6 +3,17 @@
 
 #1. jenkins
 
+``` 
+create dir 
+mkdir ~/jenkins
+
+```
+Firs Log in
+
+View the generated administrator password to log in the first time.
+```
+docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPassword
+```
 #2. rabbutMQ
 ```
 cd rabbitmq-compose
